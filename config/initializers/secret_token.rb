@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Semaphore::Application.config.secret_token = '9685486b736b47a3042b1f710de36cee51b3d416df367e01a97891ca006a0cb1844a0c3f9a77234000e8c686e586f3a5a41ff1c358aa07957b1ffe8f0a01fcbd'
+Semaphore::Application.config.secret_token = '99afcb44ee9b850483b0f8f985109746946a39e221f9e0bf59be7051002ef69877c204174c512e5c031bd77a40e823c3aace5ba8a1526572b4a2d37acaa59f78'
