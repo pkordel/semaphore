@@ -1,1 +1,2 @@
 rvm use 1.9.2@semaphore
+alias rails=$GEM_HOME/bundler/gems/rails-*/bin/rails
