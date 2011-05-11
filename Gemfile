@@ -4,6 +4,7 @@ gem 'rails', '3.1.0.beta1'
 
 gem "mongo_mapper"
 gem "bson_ext"
+gem "rails3-generators"
 
 # Asset template engines
 gem 'sass'
