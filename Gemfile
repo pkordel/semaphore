@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.0.beta1'
 
 # gem "mongo_mapper"
-gem "mongoid", "~> 2.0"
+gem "mongoid", :git => "git://github.com/mongoid/mongoid.git"
 gem "bson_ext", "~> 1.3"
 
 # Asset template engines
