@@ -11,8 +11,13 @@
 </p>
 
 <p>
+  <b>Category:</b>
+  <%= @event.category.name %>
+</p>
+
+<p>
   <b>Published on:</b>
-  <%= @event.published_on %>
+  <%= I18n.l(@event.created_at, :format => :short) %>
 </p>
 
 <p>

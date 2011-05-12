@@ -17,9 +17,9 @@
   <tr>
     <td><%= event.title %></td>
     <td><%= event.description %></td>
-    <td><%= event.published_on %></td>
-    <td><%= event.starts_at %></td>
-    <td><%= event.ends_at %></td>
+    <td><%= I18n.l(event.created_at, :format => :short) %></td>
+    <td><%= I18n.l(event.starts_at, :format => :short) %></td>
+    <td><%= I18n.l(event.ends_at, :format => :short) %></td>
     <td><%= event.source %></td>
     <td><%= link_to 'Show', event %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>

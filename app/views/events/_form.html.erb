@@ -20,16 +20,16 @@
     <%= f.text_area :description %>
   </div>
   <div class="field">
-    <%= f.label :published_on %><br />
-    <%= f.date_select :published_on %>
+    <%= f.label :category_id %><br />
+    <%= f.collection_select :category_id, Category.all, :id, :name %>
   </div>
   <div class="field">
     <%= f.label :starts_at %><br />
-    <%= f.time_select :starts_at %>
+    <%= f.datetime_select :starts_at %>
   </div>
   <div class="field">
     <%= f.label :ends_at %><br />
-    <%= f.time_select :ends_at %>
+    <%= f.datetime_select :ends_at %>
   </div>
   <div class="field">
     <%= f.label :source %><br />
