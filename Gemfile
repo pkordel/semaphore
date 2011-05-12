@@ -2,9 +2,9 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.0.beta1'
 
-gem "mongo_mapper"
-gem "bson_ext"
-gem "rails3-generators"
+# gem "mongo_mapper"
+gem "mongoid", "~> 2.0"
+gem "bson_ext", "~> 1.3"
 
 # Asset template engines
 gem 'sass'
@@ -20,9 +20,9 @@ gem 'passenger'
 # and rake tasks are available in development mode:
 group :development, :test do
   gem 'rspec-rails'
-  gem 'database_cleaner'
   gem 'cucumber-rails'
   gem 'capybara'
+  gem "fabrication", "~> 0.9"
 end
 
 # To use debugger
