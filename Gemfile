@@ -1,12 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.beta1'
+# gem 'rails', '3.1.0.beta1'
+gem 'rails', :git => "git://github.com/rails/rails.git"
 
 # gem "mongo_mapper"
 gem "mongoid", :git => "git://github.com/mongoid/mongoid.git"
 gem "bson_ext", "~> 1.3"
 
 # Asset template engines
+gem 'compass-susy-plugin', :git => 'git://github.com/ericam/compass-susy-plugin.git'
+gem 'slim-rails', :git => 'git://github.com/leogalmeida/slim-rails.git'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
