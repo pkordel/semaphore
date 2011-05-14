@@ -212,7 +212,6 @@ DEPENDENCIES
   passenger
   rails!
   rspec-rails
-  sass
   slim-rails!
   turn
   uglifier

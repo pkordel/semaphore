@@ -10,7 +10,6 @@ gem "bson_ext", "~> 1.3"
 # Asset template engines
 gem 'compass-susy-plugin', :git => 'git://github.com/ericam/compass-susy-plugin.git'
 gem 'slim-rails', :git => 'git://github.com/leogalmeida/slim-rails.git'
-gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 
