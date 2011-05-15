@@ -8,8 +8,9 @@ class Event
   field :starts_at, :type => DateTime
   field :ends_at, :type => DateTime
   field :source
+  key :title
   
   belongs_to :category
   validates_presence_of :title, :description
-
+  
 end
