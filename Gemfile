@@ -25,6 +25,8 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'capybara'
   gem "fabrication", "~> 0.9"
+  gem 'database_cleaner'
+  gem 'mongoid-rspec', :git => 'git://github.com/durran/mongoid-rspec.git'
 end
 
 # To use debugger
