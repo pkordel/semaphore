@@ -12,7 +12,8 @@ gem 'slim-rails', :git => 'git://github.com/leogalmeida/slim-rails.git'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
-gem 'compass', :require => false
+gem 'compass', :git => 'https://github.com/chriseppstein/compass.git'
+gem 'compass-susy-plugin', :git => 'https://github.com/ericam/compass-susy-plugin.git'
 
 gem 'jquery-rails'
 

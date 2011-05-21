@@ -1,2 +1,10 @@
-@import "compass/css3/opacity";
-#mylogo { @include opacity(0.5); }
+// Imports -------------------------------------------------------------------
+
+@import "base";
+
+/* Layout ------------------------------------------------------------------*/
+
+.container {
+  @include container;
+  @include susy-grid-background;
+}
