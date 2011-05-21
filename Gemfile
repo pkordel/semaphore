@@ -12,6 +12,7 @@ gem 'slim-rails', :git => 'git://github.com/leogalmeida/slim-rails.git'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
+gem 'compass', :require => false
 
 gem 'jquery-rails'
 
