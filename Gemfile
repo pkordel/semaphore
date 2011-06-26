@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
-# gem 'rails', '3.1.0.beta1'
-gem 'rails', :git => "git://github.com/rails/rails.git"
+# gem 'rails3.1.0.rc4'
+# gem 'rails', :git => "git://github.com/rails/rails.git"
+gem "rails", :path => "~/Code/rails/rails"
 
 # gem "mongo_mapper"
 gem "mongoid", :git => "git://github.com/mongoid/mongoid.git"
