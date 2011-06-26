@@ -24,12 +24,12 @@ gem 'passenger'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-  gem 'rspec-rails', '~>2.6.1'
+  gem 'rspec-rails', '~> 2.6.1'
   gem 'cucumber-rails'
   gem 'capybara'
   gem "fabrication", "~> 0.9"
   gem 'database_cleaner'
-  gem 'mongoid-rspec', :git => 'git://github.com/durran/mongoid-rspec.git'
+  # gem 'mongoid-rspec', :git => 'git://github.com/durran/mongoid-rspec.git'
 end
 
 # To use debugger
